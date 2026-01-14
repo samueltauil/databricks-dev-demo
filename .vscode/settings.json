@@ -1,4 +1,16 @@
 {
     "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
-    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
+    "sqltools.connections": [
+        {
+            "connectionMethod": "Hostname and Token",
+            "catalog": "demos",
+            "previewLimit": 50,
+            "driver": "Databricks",
+            "name": "databricks-demo",
+            "host": "adb-7405609900705693.13.azuredatabricks.net",
+            "schema": "dbdemos_retail_c360",
+            "path": "/sql/1.0/warehouses/90ca0416e94fa485"
+        }
+    ]
 }
